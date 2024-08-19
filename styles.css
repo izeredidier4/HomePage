@@ -1,0 +1,224 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+.mega-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.mega-menu ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+.mega-menu ul li a {
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.mega-menu ul li a:hover,
+.mega-menu ul li .dropdown-content a:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #007bff;
+    min-width: 200px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #0056b3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hero-banner {
+    background-image: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+.product-categories,
+.featured-products {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.product-categories h2,
+.featured-products h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+
+.categories,
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.category,
+.product {
+    background-color: white;
+    padding: 30px;
+    flex: 1;
+    margin: 0 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category:hover,
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.seo-section {
+    background-color: #007bff;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.seo-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.seo-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.seo-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.seo-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.promo-banner {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links,
+.social-media {
+    margin-bottom: 20px;
+}
+
+.footer-links a,
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.social-media a:hover {
+    color: #ff6347;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
